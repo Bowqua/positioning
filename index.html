@@ -6,36 +6,37 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <div class="logos">
-        <div class="logo logo-1"></div>
-        <div class="logo logo-2"></div>
+        <div class="logo logo-japan">
+            <div class="japan-circle"></div>
+        </div>
+        <div class="logo logo-windows">
+            <div class="window-pane pane-1"></div>
+            <div class="window-pane pane-2"></div>
+            <div class="window-pane pane-3"></div>
+            <div class="window-pane pane-4"></div>
+        </div>
     </div>
+    <section class="modal_window">
+        <h2>Modal window</h2>
+        <button class="open_button">Open the modal window</button>
+    </section>
     <div class="modal-overlay hidden">
         <div class="modal">
             <h3>That's all, folks</h3>
             <p>
-                You can hit ESC or click outside to close the modal. Give it a go and to see the reverse transition
+                You can hit ESC or click outside to close the modal.
+                Give it a go to see the reverse transition.
+                If you like this you would probably enjoy <span class="highlight">Menu</span>, <span class="highlight">reveal.js</span> and <span class="highlight">stroll.js</span>.
             </p>
             <button class="close_button">Close</button>
             <div class="progress">
                 <div class="progress-fill"></div>
                 <div class="progress-text progress-text-dark">Loading...</div>
-                <div class="progress-text progress-text-light">Loading...</div>
+                <div class="progress-text progress-text-light"></div>
             </div>
         </div>
     </div>
-
-    <div class="accordion-item">
-        <input type="checkbox" id="acc3">
-        <label for="acc3">Accordion 3</label>
-        <div class="accordion-content">
-            <p>
-                But I must explain to you how all this mistaken idea of denouncing.
-                Third block content.
-            </p>
-            </div>
-        </div>
     <script src="index.js"></script>
 </body>
 </html>
