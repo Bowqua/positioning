@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ddd;
+}
+
+.logo-1 {
+    background-image: url("designs/logo1.png");
+}
+
+.logo-2 {
+    background-image: url("designs/logo6.png");
+}
