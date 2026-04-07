@@ -7,9 +7,82 @@
 </head>
 <body>
 
+    <!-- Логотипы -->
     <div class="logos">
         <div class="logo logo-1"></div>
         <div class="logo logo-2"></div>
+    </div>
+
+    <!-- Кнопка открытия модалки -->
+    <section class="modal_window">
+        <h2>Modal window</h2>
+        <button class="open_button">Open the modal window</button>
+    </section>
+
+    <!-- Модалка -->
+    <div class="modal-overlay hidden">
+        <div class="modal">
+
+            <h3>That's all, folks</h3>
+
+            <p>
+                You can hit ESC or click outside to close the modal.
+            </p>
+
+            <button class="close_button">Close</button>
+
+            <!-- ПРОГРЕСС-БАР -->
+            <div class="progress">
+                <div class="progress-fill"></div>
+
+                <div class="progress-text progress-text-dark">
+                    Loading...
+                </div>
+
+                <div class="progress-text progress-text-light">
+                    Loading...
+                </div>
+            </div>
+
+            <!-- АККОРДЕОН (CSS ONLY) -->
+            <div class="accordion">
+
+                <div class="accordion-item">
+                    <input type="checkbox" id="acc1">
+                    <label for="acc1">Accordion 1</label>
+                    <div class="accordion-content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            First block content.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <input type="checkbox" id="acc2">
+                    <label for="acc2">Accordion 2</label>
+                    <div class="accordion-content">
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                            Second block content.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <input type="checkbox" id="acc3">
+                    <label for="acc3">Accordion 3</label>
+                    <div class="accordion-content">
+                        <p>
+                            But I must explain to you how all this mistaken idea of denouncing.
+                            Third block content.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
     </div>
 
     <script src="index.js"></script>
